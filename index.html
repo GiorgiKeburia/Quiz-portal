@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="./img/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="home" class="home-section">
+            <div class="home-head">
+                <img src="./img/logo.png" alt="">
+                <h1>Quiz Portal</h1>
+            </div>
+            <button class="show-modal btn">Start</button>
+            <button id="high-score" class="btn btn-p">Records</button>
+        </div>
+    </div>
+
+    <div class="modal hidden">
+        <button class="close-modal">X</button>
+        <div class="modal-category">
+            <h1>Choose Category</h1>
+            <div class="categories">
+                <a href="./sport.html">Sport</a>
+                <a href="./test.html">General Knowledge</a>
+                <a href="./history.html">History</a>
+            </div>
+        </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
