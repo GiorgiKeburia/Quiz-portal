@@ -6,7 +6,7 @@ const btnsOpenModel = document.querySelectorAll('.show-modal');
 const record = document.getElementById('high-score');
 
 record.addEventListener('click', () => {
-    window.location.assign('/highscore.html');
+    window.location.assign('./highscore.html');
 });
 
 console.log(record);
